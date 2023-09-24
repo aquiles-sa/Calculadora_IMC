@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(33, 16, 47);
+  color: #fdf;
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+#container {
+  background-color: rgba(67, 54, 138, 0.4);
+
+  border: 3px solid rgba(204, 71, 204, 0.603);
+  border-radius: 2rem;
+
+  padding: 1rem;
+}
+
+form {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1.5rem;
+
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-area {
+  background-color: rgba(143, 72, 143, 0.2);
+  border-radius: 10px;
+
+  text-align: center;
+
+  padding: 1rem;
+  margin: 0 1rem;
+}
+
+.input-area input {
+  display: block;
+  margin-top: 1rem;
+
+  text-align: center;
+  font-size: 1rem;
+
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+
+  color: #fff;
+
+  width: 5.5rem;
+}
+
+.buttons {
+  margin: 1rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.buttons input {
+  width: 95%;
+  height: 2.2rem;
+
+  margin-top: 0.3rem;
+
+  outline: none;
+  border: 1px solid #fdf;
+
+  background: transparent;
+  border-radius: 1rem;
+
+  color: #fff;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons .send:hover {
+  border: 1px solid rgb(0, 255, 136);
+}
+
+.buttons .send:focus {
+  background: rgba(0, 255, 136, 0.1);
+}
+
+.buttons .reset:hover {
+  border: 1px solid rgb(255, 0, 30);
+}
+
+.buttons .reset:focus {
+  background: rgba(255, 0, 30, 0.1);
+}
+
+.text-area {
+  text-align: center;
+}
+
+.result {
+  font-size: 1.3em;
+
+  background-color: rgba(0, 93, 92, 0.301);
+  border-radius: 15px;
+
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.underweight {
+  color: rgb(0, 174, 180);
+}
+
+.normal-weight {
+  color: rgb(0, 202, 67);
+}
+
+.overwheight {
+  color: rgb(217, 173, 0);
+}
+
+.obesity-one {
+  color: rgb(211, 0, 0);
+}
+
+.obesity-two {
+  color: rgb(196, 60, 60);
+}
+
+.obesity-three {
+  color: rgb(170, 52, 52);
+}
